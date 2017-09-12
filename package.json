@@ -1,0 +1,27 @@
+{
+  "name": "graphql-tag.macro",
+  "version": "0.0.1",
+  "description": "graphql-tag as a babel-macro",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-jest": "^21.0.2",
+    "babel-literal-to-ast": "^1.0.0",
+    "babel-macros": "^1.0.2",
+    "babel-plugin-tester": "^4.0.0",
+    "babel-preset-env": "^1.6.0",
+    "jest": "^21.0.2"
+  },
+  "dependencies": {
+    "graphql": "^0.11.3",
+    "graphql-tag": "^2.4.2"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.jsx?$": "babel-jest"
+    }
+  }
+}
