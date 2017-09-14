@@ -18,8 +18,8 @@ function compile(babel, path) {
   const expressions = path.get('quasi').get('expressions');
 
   expressions.forEach((expr) => {
-    if (!t.isIdentifier(expr)) {
-      throw expr.buildCodeFrameError('Non identifiers where used in a graphql template literal. This is not supported by this macro.');
+    if (!t.isIdentifier(expr) && !t.isMemberExpression(expr)) {
+      throw expr.buildCodeFrameError('Only identifiers or member expressions are allowed by this macro as an interpolation in a graphql template literal.');
     }
   });
 
