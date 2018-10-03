@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`1. macros 1`] = `
+exports[`macros 1. macros: 1. macros 1`] = `
 "
 import gql from './index.macro'
 
@@ -16,63 +16,58 @@ const query = gql\`
       ↓ ↓ ↓ ↓ ↓ ↓
 
 const query = {
-  'kind': 'Document',
-  'definitions': [{
-    'kind': 'OperationDefinition',
-    'operation': 'query',
-    'name': {
-      'kind': 'Name',
-      'value': 'Foo'
+  \\"kind\\": \\"Document\\",
+  \\"definitions\\": [{
+    \\"kind\\": \\"OperationDefinition\\",
+    \\"operation\\": \\"query\\",
+    \\"name\\": {
+      \\"kind\\": \\"Name\\",
+      \\"value\\": \\"Foo\\"
     },
-    'variableDefinitions': [],
-    'directives': [],
-    'selectionSet': {
-      'kind': 'SelectionSet',
-      'selections': [{
-        'kind': 'Field',
-        'alias': null,
-        'name': {
-          'kind': 'Name',
-          'value': 'foo'
+    \\"variableDefinitions\\": [],
+    \\"directives\\": [],
+    \\"selectionSet\\": {
+      \\"kind\\": \\"SelectionSet\\",
+      \\"selections\\": [{
+        \\"kind\\": \\"Field\\",
+        \\"name\\": {
+          \\"kind\\": \\"Name\\",
+          \\"value\\": \\"foo\\"
         },
-        'arguments': [],
-        'directives': [],
-        'selectionSet': {
-          'kind': 'SelectionSet',
-          'selections': [{
-            'kind': 'Field',
-            'alias': null,
-            'name': {
-              'kind': 'Name',
-              'value': 'bar'
+        \\"arguments\\": [],
+        \\"directives\\": [],
+        \\"selectionSet\\": {
+          \\"kind\\": \\"SelectionSet\\",
+          \\"selections\\": [{
+            \\"kind\\": \\"Field\\",
+            \\"name\\": {
+              \\"kind\\": \\"Name\\",
+              \\"value\\": \\"bar\\"
             },
-            'arguments': [],
-            'directives': [],
-            'selectionSet': null
+            \\"arguments\\": [],
+            \\"directives\\": []
           }, {
-            'kind': 'Field',
-            'alias': null,
-            'name': {
-              'kind': 'Name',
-              'value': 'baz'
+            \\"kind\\": \\"Field\\",
+            \\"name\\": {
+              \\"kind\\": \\"Name\\",
+              \\"value\\": \\"baz\\"
             },
-            'arguments': [],
-            'directives': [],
-            'selectionSet': null
+            \\"arguments\\": [],
+            \\"directives\\": []
           }]
         }
       }]
     }
   }],
-  'loc': {
-    'start': 0,
-    'end': 55,
-    'source': {
-      'body': '\\\\n  query Foo {\\\\n    foo {\\\\n      bar\\\\n      baz\\\\n    }\\\\n  }\\\\n',
-      'name': 'GraphQL request',
-      'locationOffset': {
-        'line': 1,
-        'column': 1
+  \\"loc\\": {
+    \\"start\\": 0,
+    \\"end\\": 55,
+    \\"source\\": {
+      \\"body\\": \\"\\\\n  query Foo {\\\\n    foo {\\\\n      bar\\\\n      baz\\\\n    }\\\\n  }\\\\n\\",
+      \\"name\\": \\"GraphQL request\\",
+      \\"locationOffset\\": {
+        \\"line\\": 1,
+        \\"column\\": 1
       }
     }
   }
@@ -80,7 +75,7 @@ const query = {
 "
 `;
 
-exports[`2. macros 1`] = `
+exports[`macros 2. macros: 2. macros 1`] = `
 "
 import gql from './index.macro'
 
@@ -115,190 +110,176 @@ const query = gql\`
       ↓ ↓ ↓ ↓ ↓ ↓
 
 const frag = {
-  'kind': 'Document',
-  'definitions': [{
-    'kind': 'FragmentDefinition',
-    'name': {
-      'kind': 'Name',
-      'value': 'ChiFrag'
+  \\"kind\\": \\"Document\\",
+  \\"definitions\\": [{
+    \\"kind\\": \\"FragmentDefinition\\",
+    \\"name\\": {
+      \\"kind\\": \\"Name\\",
+      \\"value\\": \\"ChiFrag\\"
     },
-    'typeCondition': {
-      'kind': 'NamedType',
-      'name': {
-        'kind': 'Name',
-        'value': 'Chi'
+    \\"typeCondition\\": {
+      \\"kind\\": \\"NamedType\\",
+      \\"name\\": {
+        \\"kind\\": \\"Name\\",
+        \\"value\\": \\"Chi\\"
       }
     },
-    'directives': [],
-    'selectionSet': {
-      'kind': 'SelectionSet',
-      'selections': [{
-        'kind': 'Field',
-        'alias': null,
-        'name': {
-          'kind': 'Name',
-          'value': 'var'
+    \\"directives\\": [],
+    \\"selectionSet\\": {
+      \\"kind\\": \\"SelectionSet\\",
+      \\"selections\\": [{
+        \\"kind\\": \\"Field\\",
+        \\"name\\": {
+          \\"kind\\": \\"Name\\",
+          \\"value\\": \\"var\\"
         },
-        'arguments': [],
-        'directives': [],
-        'selectionSet': null
+        \\"arguments\\": [],
+        \\"directives\\": []
       }, {
-        'kind': 'Field',
-        'alias': null,
-        'name': {
-          'kind': 'Name',
-          'value': 'char'
+        \\"kind\\": \\"Field\\",
+        \\"name\\": {
+          \\"kind\\": \\"Name\\",
+          \\"value\\": \\"char\\"
         },
-        'arguments': [],
-        'directives': [],
-        'selectionSet': null
+        \\"arguments\\": [],
+        \\"directives\\": []
       }]
     }
   }],
-  'loc': {
-    'start': 0,
-    'end': 50,
-    'source': {
-      'body': '\\\\n  fragment ChiFrag on Chi {\\\\n    var\\\\n    char\\\\n  }\\\\n',
-      'name': 'GraphQL request',
-      'locationOffset': {
-        'line': 1,
-        'column': 1
+  \\"loc\\": {
+    \\"start\\": 0,
+    \\"end\\": 50,
+    \\"source\\": {
+      \\"body\\": \\"\\\\n  fragment ChiFrag on Chi {\\\\n    var\\\\n    char\\\\n  }\\\\n\\",
+      \\"name\\": \\"GraphQL request\\",
+      \\"locationOffset\\": {
+        \\"line\\": 1,
+        \\"column\\": 1
       }
     }
   }
 };
-
 const frag2 = {
-  'kind': 'Document',
-  'definitions': [{
-    'kind': 'FragmentDefinition',
-    'name': {
-      'kind': 'Name',
-      'value': 'FooFrag'
+  \\"kind\\": \\"Document\\",
+  \\"definitions\\": [{
+    \\"kind\\": \\"FragmentDefinition\\",
+    \\"name\\": {
+      \\"kind\\": \\"Name\\",
+      \\"value\\": \\"FooFrag\\"
     },
-    'typeCondition': {
-      'kind': 'NamedType',
-      'name': {
-        'kind': 'Name',
-        'value': 'Foo'
+    \\"typeCondition\\": {
+      \\"kind\\": \\"NamedType\\",
+      \\"name\\": {
+        \\"kind\\": \\"Name\\",
+        \\"value\\": \\"Foo\\"
       }
     },
-    'directives': [],
-    'selectionSet': {
-      'kind': 'SelectionSet',
-      'selections': [{
-        'kind': 'Field',
-        'alias': null,
-        'name': {
-          'kind': 'Name',
-          'value': 'qux'
+    \\"directives\\": [],
+    \\"selectionSet\\": {
+      \\"kind\\": \\"SelectionSet\\",
+      \\"selections\\": [{
+        \\"kind\\": \\"Field\\",
+        \\"name\\": {
+          \\"kind\\": \\"Name\\",
+          \\"value\\": \\"qux\\"
         },
-        'arguments': [],
-        'directives': [],
-        'selectionSet': null
+        \\"arguments\\": [],
+        \\"directives\\": []
       }, {
-        'kind': 'Field',
-        'alias': null,
-        'name': {
-          'kind': 'Name',
-          'value': 'chi'
+        \\"kind\\": \\"Field\\",
+        \\"name\\": {
+          \\"kind\\": \\"Name\\",
+          \\"value\\": \\"chi\\"
         },
-        'arguments': [],
-        'directives': [],
-        'selectionSet': {
-          'kind': 'SelectionSet',
-          'selections': [{
-            'kind': 'FragmentSpread',
-            'name': {
-              'kind': 'Name',
-              'value': 'ChiFrag'
+        \\"arguments\\": [],
+        \\"directives\\": [],
+        \\"selectionSet\\": {
+          \\"kind\\": \\"SelectionSet\\",
+          \\"selections\\": [{
+            \\"kind\\": \\"FragmentSpread\\",
+            \\"name\\": {
+              \\"kind\\": \\"Name\\",
+              \\"value\\": \\"ChiFrag\\"
             },
-            'directives': []
+            \\"directives\\": []
           }]
         }
       }]
     }
   }].concat(frag.definitions),
-  'loc': {
-    'start': 0,
-    'end': 77,
-    'source': {
-      'body': '\\\\n  fragment FooFrag on Foo {\\\\n    qux\\\\n    chi {\\\\n      ...ChiFrag\\\\n    }\\\\n  }\\\\n  \\\\n',
-      'name': 'GraphQL request',
-      'locationOffset': {
-        'line': 1,
-        'column': 1
+  \\"loc\\": {
+    \\"start\\": 0,
+    \\"end\\": 77,
+    \\"source\\": {
+      \\"body\\": \\"\\\\n  fragment FooFrag on Foo {\\\\n    qux\\\\n    chi {\\\\n      ...ChiFrag\\\\n    }\\\\n  }\\\\n  \\\\n\\",
+      \\"name\\": \\"GraphQL request\\",
+      \\"locationOffset\\": {
+        \\"line\\": 1,
+        \\"column\\": 1
       }
     }
   }
 };
-
 const query = {
-  'kind': 'Document',
-  'definitions': [{
-    'kind': 'OperationDefinition',
-    'operation': 'query',
-    'name': {
-      'kind': 'Name',
-      'value': 'Foo'
+  \\"kind\\": \\"Document\\",
+  \\"definitions\\": [{
+    \\"kind\\": \\"OperationDefinition\\",
+    \\"operation\\": \\"query\\",
+    \\"name\\": {
+      \\"kind\\": \\"Name\\",
+      \\"value\\": \\"Foo\\"
     },
-    'variableDefinitions': [],
-    'directives': [],
-    'selectionSet': {
-      'kind': 'SelectionSet',
-      'selections': [{
-        'kind': 'Field',
-        'alias': null,
-        'name': {
-          'kind': 'Name',
-          'value': 'foo'
+    \\"variableDefinitions\\": [],
+    \\"directives\\": [],
+    \\"selectionSet\\": {
+      \\"kind\\": \\"SelectionSet\\",
+      \\"selections\\": [{
+        \\"kind\\": \\"Field\\",
+        \\"name\\": {
+          \\"kind\\": \\"Name\\",
+          \\"value\\": \\"foo\\"
         },
-        'arguments': [],
-        'directives': [],
-        'selectionSet': {
-          'kind': 'SelectionSet',
-          'selections': [{
-            'kind': 'Field',
-            'alias': null,
-            'name': {
-              'kind': 'Name',
-              'value': 'bar'
+        \\"arguments\\": [],
+        \\"directives\\": [],
+        \\"selectionSet\\": {
+          \\"kind\\": \\"SelectionSet\\",
+          \\"selections\\": [{
+            \\"kind\\": \\"Field\\",
+            \\"name\\": {
+              \\"kind\\": \\"Name\\",
+              \\"value\\": \\"bar\\"
             },
-            'arguments': [],
-            'directives': [],
-            'selectionSet': null
+            \\"arguments\\": [],
+            \\"directives\\": []
           }, {
-            'kind': 'Field',
-            'alias': null,
-            'name': {
-              'kind': 'Name',
-              'value': 'baz'
+            \\"kind\\": \\"Field\\",
+            \\"name\\": {
+              \\"kind\\": \\"Name\\",
+              \\"value\\": \\"baz\\"
             },
-            'arguments': [],
-            'directives': [],
-            'selectionSet': null
+            \\"arguments\\": [],
+            \\"directives\\": []
           }, {
-            'kind': 'FragmentSpread',
-            'name': {
-              'kind': 'Name',
-              'value': 'FooFrag'
+            \\"kind\\": \\"FragmentSpread\\",
+            \\"name\\": {
+              \\"kind\\": \\"Name\\",
+              \\"value\\": \\"FooFrag\\"
             },
-            'directives': []
+            \\"directives\\": []
           }]
         }
       }]
     }
   }].concat(frag2.definitions),
-  'loc': {
-    'start': 0,
-    'end': 75,
-    'source': {
-      'body': '\\\\n  query Foo {\\\\n    foo {\\\\n      bar\\\\n      baz\\\\n      ...FooFrag\\\\n    }\\\\n  }\\\\n  \\\\n',
-      'name': 'GraphQL request',
-      'locationOffset': {
-        'line': 1,
-        'column': 1
+  \\"loc\\": {
+    \\"start\\": 0,
+    \\"end\\": 75,
+    \\"source\\": {
+      \\"body\\": \\"\\\\n  query Foo {\\\\n    foo {\\\\n      bar\\\\n      baz\\\\n      ...FooFrag\\\\n    }\\\\n  }\\\\n  \\\\n\\",
+      \\"name\\": \\"GraphQL request\\",
+      \\"locationOffset\\": {
+        \\"line\\": 1,
+        \\"column\\": 1
       }
     }
   }

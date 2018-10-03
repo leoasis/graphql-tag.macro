@@ -1,4 +1,4 @@
-import { createMacro } from 'babel-macros';
+import { createMacro } from 'babel-plugin-macros';
 import parse from "babel-literal-to-ast";
 import gql from "graphql-tag";
 
