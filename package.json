@@ -14,17 +14,19 @@
   "license": "MIT",
   "main": "dist/index.js",
   "devDependencies": {
-    "babel-cli": "^6.26.0",
-    "babel-jest": "^21.0.2",
-    "babel-literal-to-ast": "^1.0.0",
-    "babel-macros": "^1.0.2",
-    "babel-plugin-tester": "^4.0.0",
-    "babel-preset-env": "^1.6.0",
-    "jest": "^21.0.2"
+    "@babel/core": "^7.1.2",
+    "@babel/cli": "^7.1.2",
+    "@babel/preset-env": "^7.1.0",
+    "babel-core": "^7.0.0",
+    "babel-jest": "^23.6.0",
+    "babel-plugin-tester": "^5.5.1",
+    "jest": "^23.6.0"
   },
   "dependencies": {
-    "graphql": "^0.11.3",
-    "graphql-tag": "^2.4.2"
+    "babel-literal-to-ast": "^2.0.0",
+    "babel-plugin-macros": "^2.4.2",
+    "graphql": "^14.0.2",
+    "graphql-tag": "^2.10.0"
   },
   "scripts": {
     "test": "jest",
