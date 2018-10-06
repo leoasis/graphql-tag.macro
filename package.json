@@ -17,7 +17,6 @@
     "@babel/core": "^7.1.2",
     "@babel/cli": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
-    "babel-core": "^7.0.0",
     "babel-jest": "^23.6.0",
     "babel-plugin-tester": "^5.5.1",
     "jest": "^23.6.0"
