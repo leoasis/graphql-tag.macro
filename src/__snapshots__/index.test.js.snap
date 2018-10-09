@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`1. macros 1`] = `
+exports[`macros 1. macros: 1. macros 1`] = `
 "
 import gql from './index.macro'
 
@@ -30,7 +30,6 @@ const query = {
       'kind': 'SelectionSet',
       'selections': [{
         'kind': 'Field',
-        'alias': null,
         'name': {
           'kind': 'Name',
           'value': 'foo'
@@ -41,24 +40,20 @@ const query = {
           'kind': 'SelectionSet',
           'selections': [{
             'kind': 'Field',
-            'alias': null,
             'name': {
               'kind': 'Name',
               'value': 'bar'
             },
             'arguments': [],
-            'directives': [],
-            'selectionSet': null
+            'directives': []
           }, {
             'kind': 'Field',
-            'alias': null,
             'name': {
               'kind': 'Name',
               'value': 'baz'
             },
             'arguments': [],
-            'directives': [],
-            'selectionSet': null
+            'directives': []
           }]
         }
       }]
@@ -80,7 +75,7 @@ const query = {
 "
 `;
 
-exports[`2. macros 1`] = `
+exports[`macros 2. macros: 2. macros 1`] = `
 "
 import gql from './index.macro'
 
@@ -134,24 +129,20 @@ const frag = {
       'kind': 'SelectionSet',
       'selections': [{
         'kind': 'Field',
-        'alias': null,
         'name': {
           'kind': 'Name',
           'value': 'var'
         },
         'arguments': [],
-        'directives': [],
-        'selectionSet': null
+        'directives': []
       }, {
         'kind': 'Field',
-        'alias': null,
         'name': {
           'kind': 'Name',
           'value': 'char'
         },
         'arguments': [],
-        'directives': [],
-        'selectionSet': null
+        'directives': []
       }]
     }
   }],
@@ -189,17 +180,14 @@ const frag2 = {
       'kind': 'SelectionSet',
       'selections': [{
         'kind': 'Field',
-        'alias': null,
         'name': {
           'kind': 'Name',
           'value': 'qux'
         },
         'arguments': [],
-        'directives': [],
-        'selectionSet': null
+        'directives': []
       }, {
         'kind': 'Field',
-        'alias': null,
         'name': {
           'kind': 'Name',
           'value': 'chi'
@@ -249,7 +237,6 @@ const query = {
       'kind': 'SelectionSet',
       'selections': [{
         'kind': 'Field',
-        'alias': null,
         'name': {
           'kind': 'Name',
           'value': 'foo'
@@ -260,24 +247,20 @@ const query = {
           'kind': 'SelectionSet',
           'selections': [{
             'kind': 'Field',
-            'alias': null,
             'name': {
               'kind': 'Name',
               'value': 'bar'
             },
             'arguments': [],
-            'directives': [],
-            'selectionSet': null
+            'directives': []
           }, {
             'kind': 'Field',
-            'alias': null,
             'name': {
               'kind': 'Name',
               'value': 'baz'
             },
             'arguments': [],
-            'directives': [],
-            'selectionSet': null
+            'directives': []
           }, {
             'kind': 'FragmentSpread',
             'name': {
