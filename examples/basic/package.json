@@ -3,18 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "react": "^15.6.1",
-    "react-apollo": "^1.4.15",
-    "react-dom": "^15.6.1",
-    "unmaintained-react-scripts-babel-macros": "1.0.13"
+    "apollo-boost": "^0.1.16",
+    "graphql": "^14.0.2",
+    "react": "16.5.2",
+    "react-apollo": "2.2.4",
+    "react-dom": "16.5.2"
   },
   "devDependencies": {
-    "graphql-tag.macro": "../.."
+    "graphql-tag.macro": "../..",
+    "react-scripts": "2.0.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
-  }
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
