@@ -1,6 +1,6 @@
 {
   "name": "graphql-tag.macro",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "graphql-tag as a babel-macro",
   "author": {
     "name": "Leonardo Andres Garcia Crespo",
@@ -14,8 +14,8 @@
   "license": "MIT",
   "main": "dist/index.js",
   "devDependencies": {
-    "@babel/core": "^7.1.2",
     "@babel/cli": "^7.1.2",
+    "@babel/core": "^7.1.2",
     "@babel/preset-env": "^7.1.0",
     "babel-jest": "^23.6.0",
     "babel-plugin-tester": "^5.5.1",
