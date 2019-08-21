@@ -30,7 +30,7 @@
   "scripts": {
     "test": "jest",
     "babel": "babel src --out-dir dist --ignore \"src/**/*.test.js,__snapthots__\"",
-    "prepublish": "rm -rf dist && npm run babel && mv dist/index.macro.js dist/index.js"
+    "prepublish": "rm -rf dist && npm run babel && mv dist/index.macro.js dist/index.js && cp src/index.d.ts dist/"
   },
   "jest": {
     "transform": {
